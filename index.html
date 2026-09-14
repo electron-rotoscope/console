@@ -62,8 +62,7 @@
         }
       }
     </style>
-    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "4405a86c36a84efca5dbde1b25edd153"}'></script>
-  <script async type="text/javascript" src="/_/static/javascript/readthedocs-addons.js"></script><meta name="readthedocs-project-slug" content="pyodide" /><meta name="readthedocs-version-slug" content="stable" /><meta name="readthedocs-resolver-filename" content="/console.html" /><meta name="readthedocs-http-status" content="200" /></head>
+  </head>
   <body>
     <div id="jquery-terminal-logo">
       <a href="https://terminal.jcubic.pl/">jQuery Terminal</a>
@@ -109,7 +108,7 @@
         let { repr_shorten, BANNER, PyodideConsole } =
           pyodide.pyimport("pyodide.console");
         BANNER =
-          `Welcome to the Pyodide ${pyodide.version} terminal emulator 🐍\n` +
+          `Welcome to the Pyodide ${pyodide.version} terminal emulator 🐍, a copy of https://pyodide.org/en/stable/console.html\n` +
           BANNER;
         const pyconsole = PyodideConsole(pyodide.globals);
 
